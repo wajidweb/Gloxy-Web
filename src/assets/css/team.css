@@ -1,0 +1,95 @@
+.teamContainer{
+    background-color: rgba(184, 184, 184, 0.308);
+    
+}
+.meet{
+    border-top: 7px solid orange;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 30px;
+     
+}
+.dis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teammembercont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.teamout{
+    max-width: 300px;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.teaminn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-items: flex-start; */
+    justify-content: flex-start;
+}
+.imagediv{
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid blue;   */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.proimage{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rank{
+    width: 100%;
+    text-align: right;
+    font-size: 1.2rem ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(150, 144, 144);
+    font-weight: 500;
+    
+}
+.namePlusdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px; 
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.teamname{
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 0.774);
+    text-align: center;
+    /* border: 1px solid rebeccapurple; */
+    padding-top: 10px;
+}
+.btndiv{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.plusBtn{
+    border-radius: 50%;
+    text-align: center;
+}

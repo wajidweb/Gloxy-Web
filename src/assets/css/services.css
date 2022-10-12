@@ -1,0 +1,47 @@
+.servicesbg{
+    background-color:  rgba(201, 62, 62, 0.685);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.serImage{
+    font-size: 5rem;
+    color: rgb(255, 153, 0);
+    
+}
+.servicestext{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.desingtext{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 30px;
+}
+.cardwidth{
+    max-width: 270px;
+    margin-top: 20px;
+    
+}
+.imagediv{
+    width: 100%;
+    height: 200px;
+}
+.serText{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 153, 0);;
+}
+.disWrapstyle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}

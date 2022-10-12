@@ -1,0 +1,78 @@
+.custumbg{
+    background-image: url("../images/bg3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    
+}
+.custumtextstyle{
+    color: white;
+    padding: 9rem 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cleantext{
+    font-size: 1.3rem;
+}
+.experttext{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.helptext{
+    font-size: 1.1rem;
+}
+.custombtn{
+    background-color:  rgb(255, 153, 0);
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.custombtn:hover{
+    background-color:  rgb(255, 115, 0);
+}
+.blackcolor{
+    background-color: rgba(0, 0, 0, 0.295);
+}
+.cardcss{
+    max-width: 300px;
+    text-align: center;
+    background-color:   rgb(255, 115, 0);
+    border-radius: 15px;
+    margin: 30px 0;
+    cursor: pointer;
+    /* transition: 0.3s all; */
+}
+.cardcss:hover>p {
+    background-color: white;
+    color:rgb(255, 115, 0);
+    
+}
+.boxtitle{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4rem;
+    color: white;
+}
+.cardText{
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    color: white;
+    margin-top: 15px;
+}
+.displayWrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    z-index: 1;
+    position: relative;
+    top: -130px;
+}
+
+@media screen and (max-width:768px) {
+    .displayWrap{
+        top: 0px;
+    }
+    
+}
